@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = process.env.BASE_URL || 'http://localhost:50000/api';
+const url = process.env.BASE_URL;
 
 
 export const fetchPosts = () => axios.get(url)
